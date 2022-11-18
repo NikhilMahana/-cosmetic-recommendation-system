@@ -87,7 +87,12 @@ const handleClick = () =>{
             </div>
           </div>
           <div className='flex w-[50vw] justify-center mt-[2rem]'>
-              }
+              
+          <button onClick={handleClick} className='w-[30rem] hover:bg-[#6fb09a] transition text-[20px] font-[500] opacity-[0.9] h-[3rem] bg-[#7BC4AB] text-[#fff] transition border rounded border-[#7BC4AB]'>Click here to get your personalised product</button>
+          </div>
+          <div className='mt-[1rem] flex justify-center'>
+            <p className='font-sans font-[500] text-[26px]'>{message}</p>
+
           </div>
         </div>
       </div>
